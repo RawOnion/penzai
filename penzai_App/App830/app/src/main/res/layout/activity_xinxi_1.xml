@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/f_photobig"
+            android:layout_width="fill_parent"
+            android:layout_height="240dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_frame_background" />
+
+
+        <ListView
+            android:id="@+id/info_adapter"
+            android:layout_below="@id/f_photobig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </ListView>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.user.app830.tools.CircularImage
+                android:id="@+id/f_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="195dp"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/xinxi_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/f_photobig"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="5dp"
+            android:background="#f2f2f2"
+            android:text="编辑资料"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+

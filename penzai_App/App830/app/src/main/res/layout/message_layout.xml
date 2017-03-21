@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="搜索"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                 唐山世园会植物风情馆"
+        android:textSize="20sp"
+        android:textColor="#AE0000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                            ——奇幻的植物王国"
+        android:textSize="20sp"
+        android:textColor="#AE0000"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     植物风情馆是世园会主展馆之一。建筑面积1.3万平方米，总展出面积6156平方米，共分为5个景观区，分别是梦幻花园(入口区)、花梦涟漪(四季花厅)、兰亭清梦(兰花区)、绿谷幽梦(热带雨林区)、梦幻沙丘(沙生植物区)，共布置植物1033种。
+    位置：位于世园会核心区东北部，国内园主入口对面。
+    概况：植物风情馆是世园会主展馆之一。建筑面积1.3万平方米，总展出面积6156平方米，共分为5个景观区，分别是梦幻花园(入口区)、花梦涟漪(四季花厅)、兰亭清梦(兰花区)、绿谷幽梦(热带雨林区)、梦幻沙丘(沙生植物区)，共布置植物1033种。
+    路径：由世园会2号门始发站乘电瓶车，经少年世博园站、低碳生活馆站、龙泉湾站，即到达植物风情馆.
+    "
+            android:textColor="#000000"
+            />
+
+
+
+
+
+</LinearLayout>
